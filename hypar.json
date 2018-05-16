@@ -1,9 +1,6 @@
 {
-  "functionId": "hypar.box",
-  "description": "A test function for Hypar that makes boxes.",
   "handler": "box.handler",
   "language": "python",
-  "githubUrl": "https://github.com/hypar-io/api",
   "parameters": {
     "height": {
       "description": "The height of the box.",
