@@ -1,6 +1,6 @@
 {
   "handler": "box.handler",
-  "language": "python",
+  "runtime": "python3.6",
   "parameters": {
     "height": {
       "description": "The height of the box.",
