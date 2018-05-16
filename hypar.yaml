@@ -1,3 +1,4 @@
 name: hypar.box
 description: A test function for Hypar that makes boxes.
 language: python
+handler: box.handler
