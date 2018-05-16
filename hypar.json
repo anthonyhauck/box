@@ -1,0 +1,33 @@
+{
+  "description": "Create a box.",
+  "functionId": "hypar.box",
+  "githubUrl": "https://github.com/hypar-io/api",
+  "parameters": {
+    "height": {
+      "description": "The height of the box.",
+      "max": 11,
+      "min": 1,
+      "step": 5,
+      "type": "number"
+    },
+    "length": {
+      "description": "The length of the box.",
+      "max": 11,
+      "min": 1,
+      "step": 5,
+      "type": "number"
+    },
+    "width": {
+      "description": "The width of the box.",
+      "max": 11,
+      "min": 1,
+      "step": 5,
+      "type": "number"
+    }
+  },
+  "returns": {
+    "volume": {
+      "description": "The volume of the box."
+    }
+  }
+}
