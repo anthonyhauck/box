@@ -218,7 +218,8 @@ class glTF():
         """
 
         glb = self.create_glb()
-        return base64.b64encode(glb)
+        ENCODING = 'utf-8'
+        return base64.b64encode(glb).decode(ENCODING)
 
     def save_glb(self, path):
         """Save a glb file to disk
