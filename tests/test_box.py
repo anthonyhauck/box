@@ -3,7 +3,6 @@ import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '../'))
 from box import box
-from handler import handler
 
 class TestBox(unittest.TestCase):
 
@@ -13,7 +12,6 @@ class TestBox(unittest.TestCase):
 
     def test_creates_box_with_valid_arguments(self):
         result = box(1, 1, 1)
-        print(result)
-     
-if __name__ == '__main__':
-    unittest.main()
+        self.assertIsNotNone(result['model'])
+        self.assertIsNotNone(result['computed'])
+        self.assertEqual(result['computed']['volume'], 1)
