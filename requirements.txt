@@ -1,1 +1,2 @@
-numpy==1.14.3
+# List dependencies for your function here.
+# See https://pip.readthedocs.io/en/1.1/requirements.html for more information.

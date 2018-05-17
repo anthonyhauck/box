@@ -1,5 +1,5 @@
 {
-  "handler": "box.handler",
+  "function": "box.box",
   "runtime": "python3.6",
   "parameters": {
     "height": {
